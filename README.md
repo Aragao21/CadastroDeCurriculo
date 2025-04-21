@@ -23,7 +23,6 @@ Este projeto tem como objetivo desenvolver um formulário de **Cadastro de Curr�
 
 Cadastro de Currículos/
 
-│
 ├── CSS/                → Folhas de estilo (arquivos .css)  
 ├── JS/                 → Scripts JavaScript/jQuery (arquivos .js)  
 ├── Imagens/            → Arquivos de imagem (.jpg, .jpeg, .png, .gif)  
