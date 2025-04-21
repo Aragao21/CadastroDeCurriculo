@@ -4,6 +4,7 @@
 **Curso:** Engenharia da Computação  
 **Disciplina:** Desenvolvimento Web  
 **Fase:** 1 (Front-End) 
+
 **Grupo:**   
 - Nome: Caio Marques de Souza - RA: 1303757
 - Nome: Flávia Aragão Lopes - RA: 2163501
@@ -88,12 +89,6 @@ Cadastro de Currículos/
 | **Who**    | Equipe com até 5 integrantes                                   |
 | **How**    | Usando tecnologias web: HTML, CSS, JS/jQuery e futuramente backend (PHP ou Node.js) |
 | **How Much** | Não se aplica neste contexto acadêmico                      |
-
----
-
-## 💡 Observações Finais
-
-O readme acima precisa de novas observações finais. O readme ficará no meu repositório do github, o link do repositório será enviado ao invés do arquivo compactado, onde o professor deve acessar o link do repositório e clonar o projeto na própria máquina para testar.
 
 ---
 
