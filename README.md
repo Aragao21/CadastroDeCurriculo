@@ -22,6 +22,7 @@ Este projeto tem como objetivo desenvolver um formulário de **Cadastro de Curr�
 ## 📂 Estrutura de Pastas
 
 Cadastro de Currículos/
+
 │
 ├── CSS/                → Folhas de estilo (arquivos .css)  
 ├── JS/                 → Scripts JavaScript/jQuery (arquivos .js)  
