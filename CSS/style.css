@@ -1,0 +1,213 @@
+:root {
+  --cor-primaria: #3498db;
+  --cor-secundaria: #2ecc71;
+  --cor-fundo: #f4f4f4;
+  --cor-texto: #333;
+  --cor-borda: #ccc;
+  --cor-erro: red;
+  --cor-idioma-bg: #f0f8ff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cor-fundo);
+  margin: 0;
+  padding: 20px;
+  color: var(--cor-texto);
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: var(--cor-primaria);
+  margin-top: 30px;
+  border-bottom: 1px solid var(--cor-borda);
+  padding-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="url"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+select option[disabled][hidden] {
+  color: gray;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.titulo-principal {
+  text-align: center;
+  color: var(--cor-primaria);
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.telefone-linha {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#ddi {
+  width: 90px;
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 5px;
+}
+
+#ddd {
+  width: 50px !important;
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 5px;
+}
+
+#numero {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.checkbox-group label {
+  font-weight: normal;
+}
+
+small {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+} 
+
+.formacao,
+.experiencia,
+.idioma {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed var(--cor-borda);
+}
+
+.idioma {
+  background-color: var(--cor-idioma-bg);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.adicionar-habilidade {
+  display: flex;
+  align-items: center; /* alinha verticalmente o botão e o input */
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#nova-habilidade {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 5px;
+  font-size: 14px;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+#btn-adicionar-habilidade {
+  height: 42px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 5px;
+  background-color: var(--cor-primaria);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-adicionar-habilidade:hover {
+  background-color: #2980b9;
+}   
+
+.habilidade-tag {
+  display: flex;
+  align-items: center;
+  background-color: #e3f2fd;
+  border: 1px solid var(--cor-borda);
+  padding: 6px 10px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.habilidade-tag input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.habilidade-tag button {
+  margin-left: 10px;
+  background: transparent;
+  border: none;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-erro {
+  border: 2px solid var(--cor-erro);
+  background-color: #ffe6e6;
+}
